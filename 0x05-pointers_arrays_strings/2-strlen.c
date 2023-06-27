@@ -4,15 +4,15 @@
  * @s: string
  * Return: length
  */
-int _strlen(char *str)
+int _strlen(char *s)
 {
-	int len = 0;
+	int longi = 0;
 
-	while (*str != '\0')
+	while (*s != '\0')
 	{
-		len++;
-		str++;
+		longi++;
+		s++;
 	}
 
-	return (len);
+	return (longi);
 }
