@@ -3,12 +3,13 @@
 
 /**
  * struct list_s - singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to the next node
+ * by Achakpo Isioma
  *
- * Description: singly linked list node structure
- * for Holberton project
+ * @str: string - (malloc'ed string)
+ * @next: points to the next node
+ * @len: length of the string
+ *
+ * Dscrptn: Singly linked list node structure
  */
 typedef struct list_s
 {
@@ -22,5 +23,4 @@ size_t list_len(const list_t *h);
 list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
-
 #endif
