@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "lists.h"
 
+void first(void) __attribute__ ((constructor));
+
 /**
  * before_main - funcion that prints a specific string before the main
  * by Achakpo Isioma
